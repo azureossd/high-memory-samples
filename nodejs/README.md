@@ -17,7 +17,7 @@ A Node.js application that **gradually increases memory usage** by a configurabl
 
 ### Option 1 — Docker Compose (recommended)
 
-From the repository root (`memory-stress-samples/`):
+From the repository root:
 
 ```bash
 docker compose up --build nodejs

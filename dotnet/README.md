@@ -36,7 +36,6 @@ The app starts on **http://localhost:8080**.
 **Build the image:**
 
 ```bash
-cd memory-stress-samples
 docker compose build dotnet
 ```
 
@@ -57,7 +56,6 @@ docker rm -f dotnet-memorystress
 ### Option 3: Run via Docker Compose
 
 ```bash
-cd memory-stress-samples
 docker compose up dotnet --build -d
 ```
 

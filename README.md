@@ -34,7 +34,7 @@ Use these to:
 ## Project Structure
 
 ```
-memory-stress-samples/
+high-memory-samples/
 ├── docker-compose.yml        # Run all apps with 2 GB memory limits
 ├── README.md                 # This file
 ├── python/                   # Flask app — allocates large byte strings
@@ -108,7 +108,6 @@ The `/stress` endpoint streams one JSON object per line, per second:
 ### Run All Services with Docker Compose
 
 ```bash
-cd memory-stress-samples
 docker compose up --build -d
 ```
 
