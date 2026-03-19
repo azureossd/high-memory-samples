@@ -1,7 +1,7 @@
 # Python Memory Stress Test Application
 # Compatible with Azure App Service (Linux) and Azure Container Apps
 
-FROM python:3.12-slim
+FROM python:3.14-slim
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
