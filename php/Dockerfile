@@ -1,7 +1,7 @@
 # PHP Memory Stress Test Application
 # Compatible with Azure App Service (Linux) and Azure Container Apps
 
-FROM php:8.3-apache
+FROM php:8.5-apache
 
 # Configure PHP for high memory usage
 RUN echo "memory_limit = 2G" > /usr/local/etc/php/conf.d/memory.ini && \
