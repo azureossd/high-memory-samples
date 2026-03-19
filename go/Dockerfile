@@ -2,7 +2,7 @@
 # Compatible with Azure App Service (Linux) and Azure Container Apps
 
 # Build stage
-FROM golang:1.22-alpine AS build
+FROM golang:1.26-alpine AS build
 WORKDIR /app
 
 # Copy go mod file
