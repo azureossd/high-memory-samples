@@ -1,7 +1,7 @@
 # Node.js Memory Stress Test Application
 # Compatible with Azure App Service (Linux) and Azure Container Apps
 
-FROM node:20-slim
+FROM node:25-slim
 
 # Set environment variables
 ENV NODE_ENV=production \
