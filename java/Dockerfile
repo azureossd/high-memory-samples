@@ -2,7 +2,7 @@
 # Compatible with Azure App Service (Linux) and Azure Container Apps
 
 # Build stage
-FROM maven:3-eclipse-temurin-25 AS build
+FROM maven:3-eclipse-temurin-26 AS build
 WORKDIR /app
 
 # Copy pom.xml and download dependencies
